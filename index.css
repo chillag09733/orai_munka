@@ -1,0 +1,26 @@
+.header {
+  background-color: aqua;
+  grid-area: h;
+}
+.main {
+  background-color: blueviolet;
+  grid-area: m;
+}
+.aside {
+  background-color: bisque;
+  grid-area: a;
+}
+.footer {
+  background-color: deeppink;
+  grid-area: f;
+}
+.grid {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: 
+  "h h h"
+  "m m a"
+  "m m a"
+  "f f f";
+}
