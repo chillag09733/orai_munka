@@ -1,0 +1,14 @@
+table {
+  width: 600px;
+  /* ¨border-collapse: separate az alapbeálltása. oszlopok külön vannak keretezve, elválnak, felül kell írni collapse-val*/
+  border-collapse: collapse;
+}
+tr,
+td, th {
+  border: 1px solid black;
+}
+tr:nth-child(even){
+    /* minden páros sor színes even, minden páratlan odd */
+    /* pseudo selector --> :nth-child */
+    background-color: aqua;
+}
